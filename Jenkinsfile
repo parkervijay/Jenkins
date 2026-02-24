@@ -8,7 +8,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
         DOCKERHUB_USERNAME = 'parkervijay'
-        EC2_HOST = 'http://3.104.76.153/'
+        EC2_HOST = '3.104.76.153'
         EC2_USER = 'ubuntu'
     }
 
